@@ -10,6 +10,6 @@ const AboutPage = () => {
   )
 }
 
-export const Head = () => <Seo title="About Me" />
+export const Head = () => <Seo title="About Page" />
 
 export default AboutPage

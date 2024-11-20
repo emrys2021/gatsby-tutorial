@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react'
 
 // Defining the <Greeting> component
 const Greeting = (props) => {

@@ -1,24 +1,28 @@
+// Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 
+// Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-      {/* <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="http://gips2.baidu.com/it/u=195724436,3554684702&fm=3028&app=3028&f=JPEG&fmt=auto?w=1280&h=960"
-      /> */}
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="internet image"
+        src="https://h2.gifposter.com/bingImages/GlacialRivers_1920x1080.jpg"
+      />
+      <StaticImage
+        alt="local image"
         src="../images/birthday.jpg"
       />
     </Layout>
   )
 }
 
+// You'll learn about this in the next task, just copy it for now
 export const Head = () => <Seo title="Home Page" />
 
+// Step 3: Export your component
 export default IndexPage

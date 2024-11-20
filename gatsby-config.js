@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "刘心恒",
+    title: "My First Gatsby Site",
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
@@ -16,5 +16,8 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
+    "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sitemap",
   ],
 }
